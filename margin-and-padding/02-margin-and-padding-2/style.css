@@ -26,12 +26,13 @@ body {
 .button-container {
   background: #e3f4ff;
   text-align: center;
-  padding: 12px 8px;
+  padding: 8px;
   margin: 8px 4px 4px;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
-  /* width: 400px; */
+  padding: 8px 24px;
+  margin: 0px 110px;
 }
