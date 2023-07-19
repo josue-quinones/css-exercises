@@ -70,26 +70,27 @@ button.cancel {
 
 .modal {
   display: flex;
-  padding: 6px;
+  padding: 16px;
   padding-left: 0px;
 }
 
 .left-side {
-  margin: 6px;
+  margin: 0px 12px;
 }
 
 .right-side {
   display: flex;
   flex-direction: column;
-  gap: 
+  gap: 14px;
 }
 
 .top {
   display: flex;
   justify-content: space-between;
+  align-items:center;
 }
 
 .header {
   font-weight: bold;
-  font-size: larger;
+  font-size: 1.5em;
 }
