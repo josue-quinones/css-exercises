@@ -50,21 +50,19 @@ body {
 
 .sidebar {
   min-width: 300px;
-  display: flex;
-  justify-content: flex-start;
-  align-items: start;
+  max-width: 300px;
 }
 
 .container {
+  padding: 32px;
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-start;
   gap: 16px;
-  padding: 32px;
 }
 
 .card {
-  padding: 32px;
+  width: 300px;
+  padding: 16px 10px;
 }
 
 .footer {
